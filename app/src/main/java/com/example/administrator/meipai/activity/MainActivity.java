@@ -34,32 +34,49 @@ public class MainActivity extends AppCompatActivity {
        ActionBar action = getSupportActionBar();
         if (action!=null){
             action.setDisplayHomeAsUpEnabled(true);
+            //action.setHomeAsUpIndicator(R.mipmap.ic_drawer);
         }
 
     }
 
+    /**
+     * 实例化菜单
+     * @param menu
+     * @return
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.toolbar,menu);
+
         return true;
     }
 
+    /**
+     * 菜单item被选中的事件
+     * @param item
+     * @return
+     */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
+            //返回键的点击事件
+            case android.R.id.home:
+                this.finish();
+                break;
+            //宠物的点击事件
             case R.id.pet:
 
                 break;
-
+            //明星的点击事件
             case R.id.star:
 
                 break;
 
+            //旅游选项的点击事件
             case R.id.travel:
 
                 break;
         }
-
         return true;
     }
 }

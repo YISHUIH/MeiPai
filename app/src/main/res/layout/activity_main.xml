@@ -17,10 +17,11 @@
               android:layout_width="match_parent"
               android:layout_height="50dp"
               android:background="@color/colorPrimary"
+              app:navigationIcon="@mipmap/ic_drawer"
+              android:navigationIcon="@mipmap/ic_drawer"
               app:layout_scrollFlags="enterAlways|scroll|snap"
               android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-              app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-
+              app:popupTheme="@style/ToolBarPopTheme"
               >
               <TextView
                   android:gravity="center"

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/pet"
+    android:title="宠物"
+    app:showAsAction="never"
+    />
+    <item android:id="@+id/star"
+        android:title="明星"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/travel"
+        android:title="旅游"
+        app:showAsAction="never"
+        />
+</menu>

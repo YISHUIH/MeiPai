@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MeiPai</string>
+    <string name="et_search">菜谱类型、菜名</string>
+    <string name="meat">荤菜</string>
 </resources>
